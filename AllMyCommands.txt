@@ -1,0 +1,11 @@
+a)  Initialize a Git repository:  git init
+b)  Add the three files from step 2 to the staging area: git add -A
+	                                                     git commit -m "Added 3 files"
+c)  Delete the file that contains section 3.1 Git Branching - Branches in a Nutshell: git rm File_2.pdf	.	
+                                                                                      git commit -m "Removed Section 3.1 file"
+d)  Roll back to restore the deleted file : git revert 9562f4e
+                                            git commit -m "Successfully committed the 3 PDF files, each containing a section from the book (Pro Git). File_1.pdf contains Section 1.1 (Getting Started - About Version Control)  , File_2.pdf contains Section 3.1 (Git Branching - Branches in a Nutshell) & File_3.pdf contains Section 5.1 (Distributed Git - Distributed Workflows). "
+f) Push your local repository to the GitHub server repository your created in step 1: git remote add origin https://github.com/Daniel-Ashraf-Gerges-Wahby/DanielAWahby.git
+git push -u origin master
+
+	.	
