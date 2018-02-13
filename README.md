@@ -1,4 +1,4 @@
-# **<center>Sprint_0</center>**
+# <center>**Sprint_0**</center>
 
 ## Getting Started:-
 _- First file (File_1.pdf) contains section 1.1 Getting Started - About Version Control from book._
